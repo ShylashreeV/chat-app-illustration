@@ -29,7 +29,7 @@ i{
     font-weight: 700;
 }
 .container{
-    min-width:1440px;
+    max-width:1440px;
     display: flex;
 }
 .first{
@@ -196,12 +196,12 @@ form i{
     border-radius: 50%;
 }
 .second{
-    min-height: 70vh;
-    width: 80%;
+    min-height: 80vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 5rem;
+    margin-left: 6rem;
 }
 .book{
     display: flex;
