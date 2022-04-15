@@ -38,17 +38,17 @@ i{
 }
 .background{
     position: absolute;
-    height: 75vh;
-    width: 29rem;
+    height: 65vh;
+    width: 30rem;
     background: linear-gradient(to top, hsl(264, 100%, 61%) 5%, hsl(293, 100%, 63%));
-    border-radius: 0 0 170% 50%;
-    left:-4.5rem;
+    border-radius: 0% 0% 50% 50%;
+    left:-7.5rem;
     top: 0;
 }
 .tel{
     position: relative;
     top: 5rem;
-    right:12rem;
+    right:9rem;
     height:80%;
 }
 .border{
@@ -64,13 +64,13 @@ i{
     background: var(--Light-Grayish-Violet);
 }
 .bg-white{
-    width: 100px;
-    height: 10px;
+    width: 120px;
+    height: 15px;
     z-index: 10;
     position: absolute;
     background-color: var(--White);
     border-radius: 0 0 15px 15px;
-    left: 70px;
+    left: 50px;
 }
 .name{
     background: linear-gradient(to right,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
@@ -174,7 +174,7 @@ p.price .num{
 }
 form{
     background-color: var(--White);
-    margin: 0 15px 15px 15px;
+    margin: 0 10px 10px 10px;
     border-radius: 30px;
     position: relative;
     display: flex;
@@ -184,7 +184,7 @@ input{
     -webkit-appearance: none;
     border: none;
     background: transparent;
-    padding: 15px 15px;
+    padding: 10px 3px;
 }
 textarea,input{
     outline: none;
@@ -201,7 +201,7 @@ form i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 6rem;
+    margin-left: 15rem;
 }
 .book{
     display: flex;
@@ -244,7 +244,7 @@ form i{
 }
 .second{
     min-height: 170vh;
-    width: 40%;
+    width: 5%;
     bottom: 2rem;
 }
 .book p{
